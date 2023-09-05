@@ -16,6 +16,7 @@ h1 {
     font-weight: 400;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 p.one {
@@ -33,6 +34,40 @@ p.two {
     padding: 0;
     color: rgb(43, 46, 238);
 }
+
+p.three {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: rgb(249, 142, 3);
+    text-align: left;
+}
+
+ul.two {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li.two {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.three {
+    color: rgb(26, 244, 11);
+    text-align: left;
+    padding: 14px 16px;
+}
+
+li.two:hover {
+    background-color: #111;
+  }
 
 img {
     max-width: 100%;

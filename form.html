@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"
-          content="IE=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <title>
         Kysely
     </title>
- 
+
 </head>
-  
+
 <body class="form">
     <h1>Kysely</h1>
-  
+    <br
+    <ul class="two">
+        <li class="two"><a href="index.html">Home</a></li>
+        <li class="two"><a href="about.html">About</a></li>
+        <li class="two"><a href="portfolio.html">Portfolio</a></li>
+        <li class="two"><a href="contact.html">Contact</a></li>
+        <li class="two"><a href="gallery.html">Gallery</a></li>
+        <li class="two"><a href="form.html">Form</a></li>
+      </ul> 
+
     <!-- Create Form -->
     <form id="form">
- 
+
         <!-- Details -->
         <div class="form-control">
             <label for="name" id="label-name">
                 Nimi
             </label>
- 
+
             <!-- Input Type Text -->
-            <input type="text"
-                   id="name"
-                   placeholder="Enter your name" />
+            <input type="text" id="name" placeholder="Syötä nimi" />
         </div>
-  
+
         <div class="form-control">
             <label for="email" id="label-email">
                 Sähköposti
             </label>
- 
+
             <!-- Input Type Email-->
-            <input type="email"
-                   id="email"
-                   placeholder="Enter your email" />
+            <input type="email" id="email" placeholder="Syötä Sähköposti" />
         </div>
-  
+
         <div class="form-control">
             <label for="age" id="label-age">
                 Ikä
             </label>
- 
+
             <!-- Input Type Text -->
-            <input type="text"
-                   id="age"
-                   placeholder="Enter your age" />
+            <input type="text" id="age" placeholder="Syötä ikä" />
         </div>
-  
+
         <div class="form-control">
             <label for="role" id="label-role">
                 Mikä valinta parhaiten kuvaa sinua?
             </label>
-             
+
             <!-- Dropdown options -->
             <select name="role" id="role">
                 <option value="student">Opiskelija</option>
@@ -68,85 +70,72 @@
                 <option value="other">Muu</option>
             </select>
         </div>
-  
+
         <div class="form-control">
             <label>
                 Suosittelisitko OAMK:ta muille?
             </label>
- 
+
             <!-- Input Type Radio Button -->
             <label for="recommed-1">
-                <input type="radio"
-                       id="recommed-1"
-                       name="recommed">Kyllä</input>
+                <input type="radio" id="recommed-1" name="recommed">Kyllä</input>
             </label>
             <label for="recommed-2">
-                <input type="radio"
-                       id="recommed-2"
-                       name="recommed">En</input>
+                <input type="radio" id="recommed-2" name="recommed">En</input>
             </label>
             <label for="recommed-3">
-                <input type="radio"
-                       id="recommed-3"
-                       name="recommed">Ehkä</input>
+                <input type="radio" id="recommed-3" name="recommed">Ehkä</input>
             </label>
         </div>
-  
+
         <div class="form-control">
             <label>Kielet ja rajapinnat, joita olet käyttänyt</label>
-                <small>(Valitse yksi tai useampi)</small>
+            <small>(Valitse yksi tai useampi)</small>
             </label>
 
             <br><br>
             <!-- Input Type Checkbox -->
-            
+
             <label for="inp-1">
-                <input type="checkbox"
-                       name="inp">C</input></label>
+                <input type="checkbox" name="inp">C</input></label>
             <label for="inp-2">
-                <input type="checkbox"
-                       name="inp">C++</input></label>
+                <input type="checkbox" name="inp">C++</input></label>
             <label for="inp-3">
-                <input type="checkbox"
-                       name="inp">C#</input></label>
+                <input type="checkbox" name="inp">C#</input></label>
             <label for="inp-4">
-                <input type="checkbox"
-                       name="inp">Java</input></label>
+                <input type="checkbox" name="inp">Java</input></label>
             <label for="inp-5">
-                <input type="checkbox"
-                       name="inp">Python</input></label>
+                <input type="checkbox" name="inp">Python</input></label>
             <label for="inp-6">
-                <input type="checkbox"
-                       name="inp">JavaScript</input></label>
+                <input type="checkbox" name="inp">JavaScript</input></label>
             <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">React</input></label>
+                <input type="checkbox" name="inp">React</input></label>
             <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">Angular</input></label>
+                <input type="checkbox" name="inp">Angular</input></label>
             <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">Django</input></label>
+                <input type="checkbox" name="inp">Django</input></label>
             <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">Spring</input></label>
+                <input type="checkbox" name="inp">Spring</input></label>
         </div>
-  
+
         <div class="form-control">
             <label for="comment">
                 Kommentoitavaa tai palautetta?
             </label>
- 
+
             <!-- multi-line text input control -->
-            <textarea name="comment" id="comment"
-                placeholder="Enter your comment here">
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
             </textarea>
         </div>
-  
+
         <!-- Multi-line Text Input Control -->
         <button type="submit" value="submit">
             Lähetä
         </button>
+
+        <label for="thankyou">Kiitos Vastauksista!</label>
+
     </form>
 </body>
+
 </html>

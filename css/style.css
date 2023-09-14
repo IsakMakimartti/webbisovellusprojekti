@@ -140,5 +140,5 @@ button {
 
 /*Mobile*/
 @media only screen and (max-width: 1024) {
-    size-adjust: auto;
+    /*size-adjust: auto;*/
   }

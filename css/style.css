@@ -11,11 +11,23 @@ body {
     overflow-x: hidden;
 }
 
+.white-mode {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1, 5;
+    color: #777;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 /*Headers (Home, About, Portfolio, Contact, Gallery*/
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    color: #FFFFFF;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -38,11 +50,17 @@ li.headerLinks {
 }
 
 li.headerLinks:hover {
-    background-color: #808080;
+    background-color: #FFFFFF;
 }
 
 a {
     text-decoration: none;
+    color:  #777;
+}
+
+button.toggle {
+    background-color: #080F36;
+    border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
 
@@ -51,7 +69,6 @@ p.info {
     font-weight: 400;
     margin: 5px;
     padding: 10px;
-    color: #FFFFFF;
 }
 
 p.infoText {
@@ -60,7 +77,6 @@ p.infoText {
     margin: 5px;
     padding: 10px;
     text-align: left;
-    color: #FFFFFF;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);
 }
 
@@ -69,7 +85,6 @@ p.hobbies {
     font-weight: 400;
     margin: 5px;
     padding: 10px;
-    color: #FFFFFF;
 }
 
 p.portfolio {
@@ -77,7 +92,6 @@ p.portfolio {
     font-weight: 400;
     margin: 5px;
     padding: 10px;
-    color: #FFFFFF;
 }
 
 img {
@@ -135,7 +149,7 @@ button and Checkbox */
 }
 
 /* Styling Button */
-button {
+button.submit {
     background-color: #080F36;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;

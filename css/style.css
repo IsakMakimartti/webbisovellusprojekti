@@ -17,7 +17,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1, 5;
-    color: #777;
+    color: #000000;
     text-align: left;
     margin: 0;
     padding: 0;
@@ -31,12 +31,15 @@ h1 {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 /*Header Links*/
 ul.headerLinks {
+    background-color: #000000;
     list-style-type: none;
-    margin: 0;
+    margin: 0px 0px 0px 0px;
     padding: 0;
     text-align: center;
 }
@@ -46,16 +49,16 @@ li.headerLinks {
     display: inline;
     text-align: center;
     margin: 2px;
-    padding: 5px 10px;
+    padding: 3px 8px;
 }
 
 li.headerLinks:hover {
-    background-color: #FFFFFF;
+    background-color: #777;
 }
 
 a {
     text-decoration: none;
-    color:  #777;
+    color: #FFFFFF;
 }
 
 button.toggle {
@@ -114,6 +117,7 @@ form {
     margin-bottom: 25px;
     display: grid;
     row-gap: 15px;
+    color: #FFFFFF;
 }
 
 .form-name {

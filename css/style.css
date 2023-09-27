@@ -80,8 +80,6 @@ p.portfolio {
     color: #FFFFFF;
 }
 
-
-
 img {
     width: 10%;
     height: auto;
@@ -100,6 +98,13 @@ form {
 .form-control {
     text-align: left;
     margin-bottom: 25px;
+    display: grid;
+    row-gap: 15px;
+}
+
+.form-name {
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 /* Styling form-control Label */

@@ -72,42 +72,43 @@ button.toggle {
 /*Paragraph in about.html*/
 p.infoText {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 0px 0px 0px;
+    margin: auto;
+    margin-top: 10px;
     padding: 10px;
     text-align: left;
+    width: 49%;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);
-    width: 50%;
-    float: left;
 }
 
 /*Paragraph for hobbies before list in about.html*/
 p.hobbies {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 0px 0px 0px;
+    margin: auto;
     padding: 10px;
     text-align: left;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);
-    width: 47%;
-    float: right;
+    width: 50%;
+    /*box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);*/
 }
 
 ul.hobbies {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 0px 0px 0px;
+    margin: auto;
     padding: 10px;
     text-align: left;
-    width: 47%;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);
-    float: right;
+    width: 50%;
+    /*box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);*/
     list-style-type: square;
     list-style-position: inside;
     
 }
 
-p.portfolio {
+.portfolio {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
+    margin: auto;
     padding: 10px;
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 img {
@@ -238,9 +239,9 @@ button.submit {
 /* Apply some basic styles to the table */
 .info {
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+    margin: auto;
   }
   
   /* Style the table header cells (th) */

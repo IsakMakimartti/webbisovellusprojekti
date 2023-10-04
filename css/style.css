@@ -1,3 +1,4 @@
+/* Body + White mode Body */
 body {
     background-color: #080F36;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,38 +62,50 @@ a {
     color: #FFFFFF;
 }
 
+/*White mode button*/
 button.toggle {
     background-color: #080F36;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
 
-p.info {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    margin: 5px;
-    padding: 10px;
-}
-
+/*Paragraph in about.html*/
 p.infoText {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    margin: 5px;
+    margin: 0px 0px 0px 0px;
     padding: 10px;
     text-align: left;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);
+    width: 50%;
+    float: left;
 }
 
+/*Paragraph for hobbies before list in about.html*/
 p.hobbies {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    margin: 5px;
+    margin: 0px 0px 0px 0px;
     padding: 10px;
+    text-align: left;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);
+    width: 47%;
+    float: right;
+}
+
+ul.hobbies {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    text-align: left;
+    width: 47%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);
+    float: right;
+    list-style-type: square;
+    list-style-position: inside;
+    
 }
 
 p.portfolio {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
     margin: 5px;
     padding: 10px;
 }
@@ -219,3 +232,40 @@ button.submit {
 @media only screen and (max-width: 1024) {
     /*size-adjust: auto;*/
 }
+
+/*Table in about.html*/
+
+/* Apply some basic styles to the table */
+.info {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the table header cells (th) */
+  .info th {
+    /*background-color: #f2f2f2;*/
+    /*color: #333;*/
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the table data cells (td) */
+  .info td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the alternate rows with a different background color for better readability */
+  .info tr:nth-child(even) {
+    /*background-color: #f2f2f2;*/
+  }
+  
+  /* Add some hover effect for better interactivity */
+  .info tr:hover {
+    background-color: #777;
+  }

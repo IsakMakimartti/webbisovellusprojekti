@@ -26,7 +26,7 @@ body {
     overflow-x: hidden;
 }
 
-/*Headers (Home, About, Portfolio, Contact, Gallery*/
+/* Headers (Home, About, Portfolio, Contact, Gallery */
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -37,7 +37,7 @@ h1 {
     color: #FFFFFF;
 }
 
-/*Navigation bar*/
+/* Navigation bar */
 nav {
     background-color: #000000;
     overflow: hidden;
@@ -46,7 +46,7 @@ nav {
     padding: 0;
 }
 
-/*Navigation bar links*/
+/* Navigation bar links */
 a {
     text-decoration: none;
     color:#FFFFFF;
@@ -58,14 +58,14 @@ a:hover {
     background-color: #777;
 }
 
-/*White mode button*/
+/* White mode button */
 button.toggle {
     background-color: #080F36;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
 
-/*Table in about.html*/
+/* Table in about.html */
 
 /* Apply some basic styles to the table */
 .info {
@@ -102,7 +102,7 @@ button.toggle {
     background-color: #777;
   }
 
-/*Paragraph in about.html*/
+/* Paragraph in about.html */
 p.infoText {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
@@ -113,24 +113,22 @@ p.infoText {
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);
 }
 
-/*Paragraph for hobbies before list in about.html*/
+/* Paragraph for hobbies before list in about.html */
 p.hobbies {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     padding: 10px;
     text-align: left;
     width: 50%;
-    /*box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);*/
 }
 
-/*Hobbies list in about.html*/
+/* Hobbies list in about.html */
 ul.hobbies {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     padding: 10px;
     text-align: left;
     width: 50%;
-    /*box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);*/
     list-style-type: square;
     list-style-position: inside;
     
@@ -145,7 +143,7 @@ ul.hobbies {
     list-style-position: inside;
 }
 
-/*Gallery*/
+/* Gallery */
 img {
     width: 10%;
     height: auto;
@@ -264,7 +262,7 @@ button.submit {
     margin-bottom: 20px;
 }
 
-/*Adjusting website for mobile- devices*/
+/* Adjusting website for mobile- devices */
 @media only screen and (max-width: 768px) {
     body{
         size-adjust: auto;

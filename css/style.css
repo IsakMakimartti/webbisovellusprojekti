@@ -1,4 +1,4 @@
-/* Body + White mode Body */
+/* Body */
 body {
     background-color: #080F36;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
 }
 
+/* Body | White- Mode */
 .white-mode {
     background-color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,30 +37,25 @@ h1 {
     color: #FFFFFF;
 }
 
-/*Header Links*/
-ul.headerLinks {
+/*Navigation bar*/
+nav {
     background-color: #000000;
-    list-style-type: none;
-    margin: 0px 0px 0px 0px;
-    padding: 0;
+    overflow: hidden;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-/*Header Links*/
-li.headerLinks {
-    display: inline;
-    text-align: center;
+/*Navigation bar links*/
+a {
+    text-decoration: none;
+    color:#FFFFFF;
     margin: 2px;
     padding: 3px 8px;
 }
 
-li.headerLinks:hover {
+a:hover {
     background-color: #777;
-}
-
-a {
-    text-decoration: none;
-    color: #FFFFFF;
 }
 
 /*White mode button*/
@@ -68,6 +64,43 @@ button.toggle {
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
+
+/*Table in about.html*/
+
+/* Apply some basic styles to the table */
+.info {
+    border-collapse: collapse;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
+  
+  /* Style the table header cells (th) */
+  .info th {
+    /*background-color: #f2f2f2;*/
+    /*color: #333;*/
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the table data cells (td) */
+  .info td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the alternate rows with a different background color for better readability */
+  .info tr:nth-child(even) {
+    /*background-color: #f2f2f2;*/
+  }
+  
+  /* Add some hover effect for better interactivity */
+  .info tr:hover {
+    background-color: #777;
+  }
 
 /*Paragraph in about.html*/
 p.infoText {
@@ -90,6 +123,7 @@ p.hobbies {
     /*box-shadow: 2px 5px 10px rgba(0, 0, 0, 1.5);*/
 }
 
+/*Hobbies list in about.html*/
 ul.hobbies {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
@@ -111,9 +145,59 @@ ul.hobbies {
     list-style-position: inside;
 }
 
+/*Gallery*/
 img {
     width: 10%;
     height: auto;
+}
+
+.imagesOne {
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    transition: width 2s;
+}
+
+.imagesOne:hover {
+    width: 80%;
+}
+.imagesTwo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    transition: width 2s;
+}
+
+.imagesTwo:hover {
+    width: 80%;
+}
+
+.imagesThree {
+    display: flex;
+    justify-content: right;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    transition: width 2s;
+}
+
+.imagesThree:hover {
+    width: 50%;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Animation for images */
+@keyframes example {
+    from {background-color: #080F36}
+    to {background-color: #FFFFFF;}
 }
 
 /* Styling the Form (Color, Padding, Shadow) */
@@ -180,56 +264,7 @@ button.submit {
     margin-bottom: 20px;
 }
 
-.imagesOne {
-    display: flex;
-    justify-content: left;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    transition: width 2s;
-}
-
-.imagesOne:hover {
-    width: 80%;
-}
-.imagesTwo {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    transition: width 2s;
-}
-
-.imagesTwo:hover {
-    width: 80%;
-}
-
-.imagesThree {
-    display: flex;
-    justify-content: right;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    transition: width 2s;
-}
-
-.imagesThree:hover {
-    width: 50%;
-    animation-name: example;
-    animation-duration: 4s;
-}
-
-/* The animation code */
-@keyframes example {
-    from {background-color: #080F36}
-    to {background-color: #FFFFFF;}
-}
-
-/*Mobile*/
+/*Adjusting website for mobile- devices*/
 @media only screen and (max-width: 768px) {
     body{
         size-adjust: auto;
@@ -245,40 +280,3 @@ button.submit {
         width: fit-content;
     }
 }
-
-/*Table in about.html*/
-
-/* Apply some basic styles to the table */
-.info {
-    border-collapse: collapse;
-    width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-  }
-  
-  /* Style the table header cells (th) */
-  .info th {
-    /*background-color: #f2f2f2;*/
-    /*color: #333;*/
-    font-weight: bold;
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #ddd;
-  }
-  
-  /* Style the table data cells (td) */
-  .info td {
-    padding: 8px;
-    text-align: left;
-    border: 1px solid #ddd;
-  }
-  
-  /* Style the alternate rows with a different background color for better readability */
-  .info tr:nth-child(even) {
-    /*background-color: #f2f2f2;*/
-  }
-  
-  /* Add some hover effect for better interactivity */
-  .info tr:hover {
-    background-color: #777;
-  }

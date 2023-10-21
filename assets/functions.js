@@ -7,10 +7,6 @@ function alertBox() {
   alert("Submitted! Thanks you for answering the survey!");
 }
 
-function playAudio(url) {
-  new Audio(url).play();
-}
-
 function copyTextFromLi(liElement) {
   // Get the text from the li element
   var textToCopy = liElement.textContent;

@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <script src="assets/functions.js"></script>
-    <script src="assets/loadPage.js"></script>
 </head>
 
 <body>
@@ -27,8 +26,10 @@
             Contact information
         </p>
         <ul id="contactInformation">
-            <li>Phone: 0458898880</li>
-            <li>Email: t2mais00@students.oamk.fi</li>
+            <li id="phoneNumber">Phone: 0458898880</li>
+            <button class="contactInformation" onclick="copyTextFromLi(document.getElementById('phoneNumber'))">Copy PhoneNumber</button>
+            <li id="emailAdress">Email: t2mais00@students.oamk.fi</li>
+            <button class="contactInformation" onclick="copyTextFromLi(document.getElementById('emailAdress'))">Copy Email</button>
         </ul>
         <p id="contactSocialMedia">
             Social media

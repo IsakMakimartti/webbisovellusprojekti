@@ -75,6 +75,53 @@ button.toggle {
     list-style-position: inside;
 }
 
+/* Home page images */
+img {
+    width: 10%;
+    height: auto;
+}
+
+.imagesOne {
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    transition: width 2s;
+}
+
+.imagesOne:hover {
+    width: 80%;
+}
+.imagesTwo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    transition: width 2s;
+}
+
+.imagesTwo:hover {
+    width: 80%;
+}
+
+.imagesThree {
+    display: flex;
+    justify-content: right;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    transition: width 2s;
+}
+
+.imagesThree:hover {
+    width: 80%;
+}
+
 /* Table in about.html */
 
 /* Apply some basic styles to the table */
@@ -210,6 +257,21 @@ a.contactLinks {
 }
 
 a.contactLinks:hover {
+    background-color: #777;
+}
+
+button.contactInformation {
+    background-color: #000000;
+    color: white;
+    padding: 5px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button.contactInformation:hover {
     background-color: #777;
 }
 

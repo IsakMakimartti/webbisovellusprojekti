@@ -65,6 +65,16 @@ button.toggle {
     color: #FFFFFF;
 }
 
+/*Home page*/
+#index {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
 /* Table in about.html */
 
 /* Apply some basic styles to the table */
@@ -122,6 +132,14 @@ p.hobbies {
     width: 50%;
 }
 
+p.hobbiesText {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    width: 50%;
+}
+
 /* Hobbies list in about.html */
 ul.hobbies {
     font-family: Arial, Helvetica, sans-serif;
@@ -134,7 +152,8 @@ ul.hobbies {
     
 }
 
-.portfolio {
+/*Projects*/
+.projectsLinks {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     padding: 10px;
@@ -143,64 +162,71 @@ ul.hobbies {
     list-style-position: inside;
 }
 
+#projectsLinks {
+    background-color: #000000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#projectsLinks:hover {
+    background-color: #777;
+}
+
+.projectsLanguages {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+/*Contact*/
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    list-style-type: square;
+    list-style-position:inside;
+}
+
+#contactInformation
+{
+    display: inline-block;
+    text-align: left;
+}
+
 /* Gallery */
-img {
-    width: 10%;
-    height: auto;
-}
-
-.imagesOne {
-    display: flex;
-    justify-content: left;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    transition: width 2s;
-}
-
-.imagesOne:hover {
-    width: 80%;
-}
-.imagesTwo {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    transition: width 2s;
-}
-
-.imagesTwo:hover {
-    width: 80%;
-}
-
-.imagesThree {
-    display: flex;
-    justify-content: right;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    transition: width 2s;
-}
-
-.imagesThree:hover {
+p.gallery {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
     width: 50%;
-    animation-name: example;
-    animation-duration: 4s;
 }
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    margin-top: 30px;
+    padding: 10px;
+    width: 900px;
+    height: 600px;
+  }
 
-/* Animation for images */
-@keyframes example {
-    from {background-color: #080F36}
-    to {background-color: #FFFFFF;}
-}
-
+/*Form*/
 /* Styling the Form (Color, Padding, Shadow) */
 form {
     background-color: #000000;
+    color:#FFFFFF;
     max-width: 500px;
     margin: 50px auto;
     padding: 30px 20px;
@@ -250,7 +276,7 @@ button and Checkbox */
 
 /* Styling Button */
 button.submit {
-    background-color: #080F36;
+    background-color: #000000;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     border-radius: 50px;

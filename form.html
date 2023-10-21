@@ -13,13 +13,13 @@
 <body>
     <h1>Survey</h1>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="form.html">Survey</a>
-        <button class="toggle" onclick="myFunction()">White/Dark mode</button>
+        <a class="navLinks" href="index.html">Home</a>
+        <a class="navLinks" href="about.html">About</a>
+        <a class="navLinks" href="projects.html">Projects</a>
+        <a class="navLinks" href="contact.html">Contact</a>
+        <a class="navLinks" href="gallery.html">Gallery</a>
+        <a class="navLinks" href="form.html">Survey</a>
+        <button class="toggle" onclick="whiteMode()">White/Dark mode</button>
     </nav>
 
     <!-- Create Form -->
@@ -116,7 +116,7 @@
         </div>
 
         <!-- Multi-line Text Input Control -->
-        <button class ="submit" type="submit" value="submit">Submit</button>
+        <button class ="submit" type="submit" value="submit" onclick="alertBox();playAudio('assets/soundeffects/submitted.mp3');">Submit</button>
 
         <label for="thankyou">Thank you for answering!</label>
 

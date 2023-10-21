@@ -47,14 +47,14 @@ nav {
 }
 
 /* Navigation bar links */
-a {
+a.navLinks {
     text-decoration: none;
     color:#FFFFFF;
     margin: 2px;
     padding: 3px 8px;
 }
 
-a:hover {
+a.navLinks:hover {
     background-color: #777;
 }
 
@@ -198,6 +198,17 @@ ul.hobbies {
 {
     display: inline-block;
     text-align: left;
+}
+
+a.contactLinks {
+    text-decoration: none;
+    color:#FFFFFF;
+    margin: 2px;
+    padding: 3px 8px;
+}
+
+a.contactLinks:hover {
+    background-color: #777;
 }
 
 /* Gallery */

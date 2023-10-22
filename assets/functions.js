@@ -38,18 +38,3 @@ function fetchInfoText() {
   .then(x => x.text())
   .then(y => document.getElementById("infoText").innerHTML = y);
 } 
-
-fetch('http://api.weatherapi.com/v1/current.json?key=f30df9843f164ee8a99201506232210&q=Oulu&aqi=no')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json(); // You can also use response.text() for non-JSON data
-  })
-  .then(data => {
-    // Work with the data
-    console.log(data);
-  })
-  .catch(error => {
-    console.error('There was a problem with the fetch operation:', error);
-  });

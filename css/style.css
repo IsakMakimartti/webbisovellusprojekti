@@ -125,7 +125,7 @@ img {
 /* Table in about.html */
 
 /* Apply some basic styles to the table */
-.info {
+.infoTable {
     border-collapse: collapse;
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
@@ -133,7 +133,7 @@ img {
   }
   
   /* Style the table header cells (th) */
-  .info th {
+  .infoTable th {
     /*background-color: #f2f2f2;*/
     /*color: #333;*/
     font-weight: bold;
@@ -143,19 +143,19 @@ img {
   }
   
   /* Style the table data cells (td) */
-  .info td {
+  .infoTable td {
     padding: 8px;
     text-align: left;
     border: 1px solid #ddd;
   }
   
   /* Style the alternate rows with a different background color for better readability */
-  .info tr:nth-child(even) {
+  .infoTable tr:nth-child(even) {
     /*background-color: #f2f2f2;*/
   }
   
   /* Add some hover effect for better interactivity */
-  .info tr:hover {
+  .infoTable tr:hover {
     background-color: #777;
   }
 
@@ -276,10 +276,17 @@ button.contactInformation:hover {
 }
 
 /* Gallery */
+.gallery {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    width: 50%;
+}
 p.gallery {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    margin-top: 30px;
     padding: 10px;
     text-align: center;
     width: 50%;
@@ -292,10 +299,22 @@ div.scroll-container {
   
   div.scroll-container img {
     margin-top: 30px;
+    margin: auto;
     padding: 10px;
     width: 900px;
     height: 600px;
   }
+
+/*Gallery buttons*/
+#prevButton, #nextButton {
+    background-color: #000000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 
 /*Form*/
 /* Styling the Form (Color, Padding, Shadow) */

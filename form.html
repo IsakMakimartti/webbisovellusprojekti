@@ -19,7 +19,11 @@
         <a class="navLinks" href="contact.html">Contact</a>
         <a class="navLinks" href="gallery.html">Gallery</a>
         <a class="navLinks" href="form.html">Survey</a>
-        <button class="toggle" onclick="whiteMode()">White/Dark mode</button>
+        <button class="toggle" onclick="setTimeout(whiteMode, 100)">White/Dark mode</button>
+        <p id="time"></p>
+        <script>
+            currentTime();
+        </script>
     </nav>
 
     <!-- Create Form -->
@@ -116,8 +120,7 @@
         </div>
 
         <!-- Multi-line Text Input Control -->
-        <button class ="submit" type="submit" value="submit" onclick="alertBox();">Submit</button>
-
+        <button class ="submit" type="submit" value="submit" onclick="alertBox()">Submit</button>
         <label for="thankyou">Thank you for answering!</label>
 
     </form>

@@ -23,3 +23,10 @@ function copyTextFromLi(liElement) {
   document.body.removeChild(tempElement);
   alert('Copied the text: ' + textToCopy);
 }
+
+function currentTime () {
+  setInterval(function () {
+    const d = new Date();
+    document.getElementById("time").innerHTML = d.toLocaleTimeString();
+});
+}

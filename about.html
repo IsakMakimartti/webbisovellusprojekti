@@ -18,7 +18,11 @@
         <a class="navLinks" href="contact.html">Contact</a>
         <a class="navLinks" href="gallery.html">Gallery</a>
         <a class="navLinks" href="form.html">Survey</a>
-        <button class="toggle" onclick="whiteMode()">White/Dark mode</button>
+        <button class="toggle" onclick="setTimeout(whiteMode, 100)">White/Dark mode</button>
+        <p id="time"></p>
+        <script>
+            currentTime();
+        </script>
     </nav>
     <br>
     <table id="infoTable" class="infoTable">
@@ -26,13 +30,18 @@
             <th>Age</th>
             <th>Name</th>
             <th>Gender</th>
-            <th>Education</th>
-            <th>Expected to Graduate</th>
         </tr>
         <tr>
             <td id="age"></td>
             <td id="name"></td>
             <td id="gender"></td>
+    </table>
+    <table id="infoTable" class="infoTable">
+        <tr>
+            <th>Education</th>
+            <th>Expected to Graduate</th>
+        </tr>
+        <tr>
             <td id="education"></td>
             <td id="graduationDate"></td>
         </tr>

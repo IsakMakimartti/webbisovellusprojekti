@@ -67,6 +67,9 @@ button.toggle {
     font-size: 20px;
 }
 
+#time {
+    color: #FFFFFF;
+}
 /*Home page*/
 #index {
     font-family: inherit;
@@ -149,11 +152,6 @@ img {
     padding: 8px;
     text-align: left;
     border: 1px solid #ddd;
-  }
-  
-  /* Style the alternate rows with a different background color for better readability */
-  .infoTable tr:nth-child(even) {
-    /*background-color: #f2f2f2;*/
   }
   
   /* Add some hover effect for better interactivity */
@@ -282,7 +280,7 @@ button.contactInformation:hover {
     font-family: inherit;
     margin: auto;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 5px;
     text-align: center;
     width: 50%;
 }
@@ -304,7 +302,10 @@ div.scroll-container {
     margin: auto;
     padding: 10px;
     width: 900px;
-    height: 600px;
+    height: auto;
+    object-fit: scale-down;
+    max-width: 100%;
+    min-width: 300px;
   }
 
 /*Gallery buttons*/
@@ -387,19 +388,44 @@ button.submit {
     margin-bottom: 20px;
 }
 
-/* Adjusting website for mobile- devices */
-@media only screen and (max-width: 768px) {
-    body{
-        size-adjust: auto;
+@media (max-width: 768px) {
+    .infoTable {
+        width: 100%;
+        margin: 0;
     }
-    .info{
-        size-adjust: auto;
+    .infoTable th,
+    .infoTable td {
+        padding: 5px; /* Reduce padding for smaller screens */
+    }
+    img {
+        width: 40%; /* Adjust the percentage as needed for mobile devices */
+    }
+
+    .imagesOne,
+    .imagesTwo,
+    .imagesThree {
+        justify-content: center; /* Center images on smaller screens */
+    }
+    div.scroll-container img {
+        width: 100%; /* Adjust the width as needed for mobile devices */
+    }
+    .gallery {
+        width: 100%;
     }
     p.infoText {
-        size-adjust: auto;
-        width: fit-content;
+        width: 80%;
     }
     p.hobbies {
-        width: fit-content;
+         width: 80%;
     }
+    
+    p.hobbiesText {
+        width: 80%;
+    }
+    
+    /* Hobbies list in about.html */
+    ul.hobbies {
+        width: 80%;
+    }
+    
 }

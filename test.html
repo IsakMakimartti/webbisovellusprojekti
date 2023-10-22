@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+</head>
+<body>
+    <div id="weather-data">
+        <!-- Weather data will be displayed here -->
+    </div>
+    <script>
+        // Your JavaScript code here
+        fetch('http://api.weatherapi.com/v1/current.json?key=00b16edfdca04776aab203343232210&q=Oulu')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Work with the data
+                displayWeatherData(data); // Call the function to display the data
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+
+        function displayWeatherData(data) {
+            const weatherDataElement = document.getElementById('weather-data');
+            // Assuming the data structure, you can access properties like data.location, data.current.temp_c, etc.
+            weatherDataElement.innerHTML = `
+                <h2>Weather in ${data.location.name}, ${data.location.country}</h2>
+                <p>Temperature: ${data.current.temp_c}°C</p>
+                <p>Condition: ${data.current.condition.text}</p>
+                <!-- Add more data as needed -->
+            `;
+        }
+    </script>
+</body>
+</html>

@@ -60,7 +60,7 @@ a.navLinks:hover {
 
 /* White mode button */
 button.toggle {
-    background-color: #080F36;
+    background-color: #000000;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     font-family: inherit;

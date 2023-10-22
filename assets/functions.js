@@ -37,5 +37,4 @@ function fetchInfoText() {
   fetch (file)
   .then(x => x.text())
   .then(y => document.getElementById("infoText").innerHTML = y);
-  
 } 

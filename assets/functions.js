@@ -30,3 +30,12 @@ function currentTime () {
     document.getElementById("time").innerHTML = d.toLocaleTimeString();
 });
 }
+
+function fetchInfoText() {
+  let file = "assets/text/infoText.txt"
+
+  fetch (file)
+  .then(x => x.text())
+  .then(y => document.getElementById("infoText").innerHTML = y);
+  
+} 

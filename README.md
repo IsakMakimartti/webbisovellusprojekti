@@ -9,7 +9,7 @@
 
  4/5  about.html and related css modifications.
 
- 5/5: i tried to use specific tags where needed throughout all my html files, while avoid unnecessary ones. For example: <nav> for different pages, <table> in about html, and so on...
+ 5/5: i tried to use specific tags where needed throughout all my html files, while avoid unnecessary ones. For example: nav for a navigation bar, table for, well tables. Etc..
 
  CSS
 

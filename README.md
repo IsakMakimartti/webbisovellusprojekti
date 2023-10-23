@@ -37,8 +37,8 @@ Asynchronous Operations
 
 1/5:
 
-I have a timer for the white/dark mode button. See <button class="toggle" onclick="setTimeout(whiteMode, 100)">White/Dark mode</button> in any of my html files. 
-I also made a timer to show current time. See  <p id="time"></p>, function is in functions.js, called currentTime();
+I have a timer for the white/dark mode button, that is present in all of the html files.
+I also made a timer to show current time. See the function in functions.js, called currentTime();
 
 2/5: I used a fetch call to get the text for a paragraph in about.html. See <p id="infoText" class="infoText"></p> as well as fetchInfoText() function at functions.js
 

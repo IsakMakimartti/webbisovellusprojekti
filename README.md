@@ -13,5 +13,32 @@
 
  CSS
 
- 1/5: 
+ 1/5: Font changes, background colour changes etc...
+
+ 2/5: If you look at some of the html files you see i've use plenty of id's + classes and modified them in css specifically.
+
+ 3/5: look at the end of my style.css file.
+
+ 4/5: look at form.html. I used grid layout to make it easy to modify.
+
+ 5/5: I believe overall i used the tools i had in hand while still keeping the website very simple, easy to use for the user.
+
+ JavaScript Basics
+
+1/5: Submit button in survey page informs the user that the feedback has been submitted. Copy buttons in contact page also do similiar.
+
+2/5: All the buttons i implemented are event listeners. Some of them do DOM manipulations. For example: images in gallery.html as well as buttons in contact.html.
+
+3/5: overall i used a lot of functions for this website, see functions.js. For arrays, check projects.html + language.js. For objects check about.html for:  <table id="infoTable" class="infoTable"> and aboutTable.js
+
+4/5: see languages.js as well as gallerybuttons.js. In both of those i use forEach loops to read data.
+
+Asynchronous Operations
+
+1/5:
+
+I have a timer for the white/dark mode button. See <button class="toggle" onclick="setTimeout(whiteMode, 100)">White/Dark mode</button> in any of my html files. 
+I also made a timer to show current time. See  <p id="time"></p>, function is in functions.js, called currentTime();
+
+2/5: I used a fetch call to get the text for a paragraph in about.html. See <p id="infoText" class="infoText"></p> as well as fetchInfoText() function at functions.js
 

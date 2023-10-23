@@ -29,7 +29,7 @@
 
 2/5: All the buttons i implemented are event listeners. Some of them do DOM manipulations. For example: images in gallery.html as well as buttons in contact.html.
 
-3/5: overall i used a lot of functions for this website, see functions.js. For arrays, check projects.html + language.js. For objects check about.html for:  <table id="infoTable" class="infoTable"> and aboutTable.js
+3/5: overall i used a lot of functions for this website, see functions.js. For arrays, check projects.html + language.js. For objects check about.html and aboutTable.js
 
 4/5: see languages.js as well as gallerybuttons.js. In both of those i use forEach loops to read data. Gallery does "dynamic DOM updates" because the user click a button and the image switches to next or previous.
 
@@ -40,5 +40,5 @@ Asynchronous Operations
 I have a timer for the white/dark mode button, that is present in all of the html files.
 I also made a timer to show current time. See the function in functions.js, called currentTime();
 
-2/5: I used a fetch call to get the text for a paragraph in about.html. See <p id="infoText" class="infoText"></p> as well as fetchInfoText() function at functions.js
+2/5: I used a fetch call to get the text for a paragraph in about.html. See the "infoText" paragraph there as well as fetchInfoText() function at functions.js
 
